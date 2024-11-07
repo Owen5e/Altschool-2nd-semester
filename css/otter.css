@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(34, 31, 31);
+    margin: auto; 
+    width: 500px; 
+    margin-block-start: 100px; 
+}
+
+.whitebground{
+   background-color: white;
+   border-radius: 10px;
+   width: 300px;
+   position: relative;
+   padding: 20px;
+   margin: 50px;
+}
+
+
+.pinkbground{
+    background-color: pink;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    right: 45px;
+    top: -28px;
+}
+
+h1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p{
+    margin-top: 50px;
+
+}

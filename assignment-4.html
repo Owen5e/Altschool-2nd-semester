@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="./css/sign.css">
+  <link rel="stylesheet" href="./css/queries.css">
+</head>
+<body>
+  <Main>
+    <article>
+    <img src="/assets/Logo.svg">
+      <h1>For Individuals</h1>
+      <p>Start benefiting from the wellnes experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+    </article>
+    <div class="form-container">
+      <form>
+        <div class="rows">
+          <div >
+        <label for="firstname">First Name</label>
+        <input class="row" type="text" id="firstname" name="firstname">
+          </div>
+          <div>
+        <label for="lastname">Last Name</label>
+        <input class="row" type="text" id="lastname" name="lastname">
+          </div>
+        </div>
+        <div class="rows">
+          <div>
+        <label for="gender">Gender</label>
+        <select class="row" name="gender" >
+          <option value="" disabled selected>Select here</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+          </div>
+          <div>
+        <label for="date">Date of Birth</label>
+        <input class="row" type="date
+        . " placeholder="Select here" id="date" name="date">
+          </div>
+        </div>
+        <div class="rows">
+          <div>
+            <label for="weight">Weight (KG)</label>
+            <input class="row" type="number" placeholder="Enter weight" id="weight" name="weight">
+          </div>
+          <div>
+            <label for="height">Height (CM)</label>
+            <input class="row" type="number" placeholder="Enter height here" id="height" name="height">
+          </div>
+        </div>
+        <div class="row1">
+          <div>
+          <label class="label" for="activity">Activity Level</label>
+          <select class="row" class="activity" name="activity">
+            <option value="" disabled selected>Select here</option>
+          </select>
+          </div>
+        </div>
+        <div class="row1">
+          <div>
+          <label class="label" for="password">Password</label>
+        <input class="row" class="password" type="password" placeholder="Enter Password" id="password" name="password">
+          </div>
+        </div>
+        <button>
+          <a class="button" href="#">Register</a>
+        </button>
+        <footer>
+        <p>
+          By clicking Register, you agree to our <a class="highlight" href="#">Terms of Use</a> and our <a class="highlight" href="#">Privacy Policy.</a>
+        </p>
+        </footer>
+      </form>
+    </div>
+  </Main>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body{
+  background-color: whitesmoke;
+  width: 1280px;
+  height: 832px;
+  margin:0 auto;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+.top-half{
+  background-color: #fff;
+  width: 1280px;
+  height: 382px;
+  padding-top: 96px;
+  
+  border-bottom: 8px solid #999;
+}
+.top-container{
+  padding-inline-start: 264px;
+  width: 415px;
+}
+.title{
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  line-height:38.4px;
+}
+.top-P{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height:30px;
+}
+.link-text{
+  text-decoration: none;
+  color: rgb(87, 236, 87);
+}
+.bottom-half{
+  background-color: #666;
+  width: 1280px;
+  height: 450px;
+  position: relative;
+}
+.container{
+  margin: auto;
+  background-color: #fff;
+  width: 800px;
+  height: 312px;
+  position: absolute;
+  top: 71px;
+  left:232px ;
+  border-block-end: 8px solid #999;
+}
+.banner{
+  display: block;
+  position: relative;
+  left: -7px;
+  top: 10px;
+  background-color: #ffbf00;
+  width: 398px;
+  height: 60px;
+  border-block-end:8px solid #cc9900;
+}
+.yellow-text{
+  position: absolute;
+  width: 398px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height:28px;
+  text-align: center;
+}
+
+.bottom-P{
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height:30px;
+  width: 752px;
+  padding-inline: 20px;
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .top-half{
+    width: 100%;
+    height: 382px;
+    margin-block-start: 30px;
+  }
+  .top-container{
+    padding-inline-start: 10px;
+    width: 100%;
+  }
+  .bottom-half{
+    width: 100%;
+    height: 767px;
+  }
+  .container{
+    width: 100%;
+    height: 496px;
+    left: -8px;
+  }
+  .banner{
+    height: 82px;
+    width: 90%;
+    left: -7px;
+  }
+  .yellow-text{
+    height: 82px;
+    width: 80%;
+    text-align: start;
+    padding-inline-start: 30px;
+  }
+  .bottom-P{
+    text-align: start;
+    padding-inline: 20px;
+    max-width: 400px;
+
+  }
+}
+
+/* Styles for screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body{
+    background-color: #fff;
+  }
+  .top-half{
+    width: 100%;
+    height: 382px;
+  }
+  .top-container{
+    padding-inline-start: 24px;
+  }
+  .bottom-half{
+    width: 100%;
+    height: 456px;
+  }
+  .container{
+    width: 100%;
+    left: -8px;
+  }
+  .banner{
+    left: 7px;
+  }
+  .bottom-P{
+    padding-inline: 30px;
+  }
+}
+
+/* Styles for screens larger than 1024px */
+@media only screen and (min-width: 1025px) {
+    
+}

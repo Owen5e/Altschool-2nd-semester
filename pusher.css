@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(245, 247, 248);
+    margin: 0;
+}
+.header{
+    display: flex;
+    
+    align-items: baseline;
+    border-bottom: 1px solid;
+}
+.headernav{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    list-style-type: none;
+
+}
+li{
+    margin: 5px;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.left{
+    padding: 30px;
+}
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;         /* Adjust the size of the circle */
+    height: 20px;        /* Must match the width to make it a perfect circle */
+    border-radius: 50%; /* Makes the element circular */
+    border: 1px solid;
+    color:  #3498db;        /* Color of the number */
+    font-size: 24px;     /* Font size of the number */
+    font-weight: bold;   /* Optional: Make the number bold */
+    text-align: center;  /* Center the number horizontally */
+    line-height: 50px;  
+}
+input{
+    background-color: rgb(241, 241, 243);
+    border: none;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+#E-mail {
+    width: 300px;
+}
+#credit-card{
+    width: 390px;
+}
+
+button{
+    margin-top: 50px;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(34, 116, 34, 0.884);
+    border: none;
+    border-radius: 3px;
+}
+button a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3{
+    display: flex;
+}
+
+
+.leftfooter{
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(168, 170, 170);
+    width: 120px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: x-small;
+}
+.stripe{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 200px;
+    background-color: #0e83d1;
+    color: white;
+    padding-left: 30px;
+}
+
+.price{
+    display: flex;
+    height: 45px;
+}
+.dollar{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+.ninety-nine{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+.year{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8px;
+}
+
+.circle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     width: 20px;         /* Adjust the size of the circle */
+    height: 20px;        /* Must match the width to make it a perfect circle */
+    border-radius: 50%; /* Makes the element circular */
+    border: 1px solid;
+    color:  #0f7445;        /* Color of the number */
+    font-size: 24px;     /* Font size of the number */
+    font-weight: bold;   /* Optional: Make the number bold */
+    text-align: center;  /* Center the number horizontally */
+    line-height: 50px;  
+}
+
+.lp4{
+    line-height: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Styles for screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   
+}
+
+/* Styles for screens larger than 1024px */
+@media only screen and (min-width: 1025px) {
+    
+}
+
