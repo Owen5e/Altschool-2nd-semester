@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pusher.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/pusher.css">
+    <title>WP-Pusher</title>
 </head>
 <body>
     <header>
     <nav class="header">
-        <h1 class="navtitle">
-            WP Pusher
-        </h1>
+        <img src="./assets/wppusher-logo copy.svg" alt="wp-logo" class="navtitle">
         <ul class="headernav">
             <li>Download</li>
             <li>Learn more</li>
             <li>Pricing</li>
             <li>Help</li>
-            <li>Account</li>
+            <li class="borded">Account</li>
         </ul>
     </nav>
     </header>
@@ -27,51 +25,56 @@
             Checkout
         </h2>
         <form>
+            <div class="formcontainer">
+                <div class="left1">
             <h3>
                 <span class="circle">1</span> Basic Information</h3>
         <div class="firstrow">
             <div class="firstname">
                 <label for="firstname" >First Name:</label>
-            <br>
             <input type="text" placeholder="John" id="firstname" name="firstname">
             </div>
             <div class="lastname">
                 <label for="lastname" >Last Name:</label>
-                <br>
                 <input type="text" placeholder="Doe" id="lastname" name="lastname">
             </div>
+        
         </div>
-
-        <br>
         <div class="secondrow">
             <label for="E-mail" >E-mail</label>
             <br>
             <input type="email" id="E-mail" name="E-mail">
         </div>
-        
+            </div>
+    
+    <div class="formcontainer">
+        <div class="left1">
         <h3>
             <span class="circle">2</span> Payment Information
         </h3>
 
         <div class="thirdrow">
         <label for="credit-card">Credit Card</label>
-        <br>
         <input type="text" id="credit-card" name="credit-card" placeholder="Card Number, MM/YY"  required>
         </div>
-        <br>
+    </div>
+    </div>
         
         <button type="submit">
             <a href="#">Buy WP Pusher</a>
         </button>
         </form>
-        <p>
+        <div class="formfooter">
+        <p class="formfooter1">
             Need any help? Don't hesitate to <span class="underline1">contact support!</span>
         </p>
         <p class="leftfooter">Powered by <span class="stripe">stripe</span></p>
+        </div>
         
            
     </section>
     <section class="right">
+        <div class="rightcontainer">
         <h4>Freelancer</h4>
         <p class="price">
             <span class="dollar">$</span>
@@ -84,26 +87,29 @@
             after 1 year
         </p>
         <p class="lp2"> 
-            <div><span class="circle2">&check;</span> Use on 5 client sites</div>
-            <div> <span class="circle2">&check;</span>Private repositories</div>
-            <div><span class="circle2">&check;</span> Email support</div>
+            <p class="rightlist"><img src="./assets/listcircle.svg" alt="listcircle"> Use on 5 client sites</p>
+            <p class="rightlist"><img src="./assets/listcircle.svg" alt="listcircle">Private repositories</p>
+            <p class="rightlist"><img src="./assets/listcircle.svg" alt="listcircle">Email support</p>
         </p>
+
         <p class="lp3">
-            Need 20 client sites?
-            <br>
-            <span class="lined">Switch to the Agency Plan.</span>
+            Need 20 client sites?</p>
+            <p class="lined">Switch to the Agency Plan.
         </p>
-        <span class="linedivide"></span>
+        
         <p class="lp4">
             <em>FTP is horrible to deal with.
             <br>
             <b>WP Pusher</b> solves that issue,
              and the customer support is awesome!</em>
         </p>
-
+        </div>
+        <footer class="rightfooter">
+            <img src="./assets/Bitmap.svg" alt="authors photo"><p>Kirk Beard</p>
+        </footer>
     </section>
     </main>
-    <footer>&copy WP Pusher IVS . <a class="terms" href="#">Terms of Service</a></footer>
+    <footer class="mainfooter">&copy WP Pusher IVS . <a class="terms" href="#">Terms of Service</a></footer>
 
 </body>
 </html>

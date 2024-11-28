@@ -1,40 +1,74 @@
 body{
     background-color: rgb(245, 247, 248);
     margin: 0;
+    width: 100%;
+}
+header{
+    padding-inline: 30px;
+    width: 100%;
 }
 .header{
     display: flex;
-    
+    margin-inline: 30px;
     align-items: baseline;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #E0E6EA;
+}
+.navtitle{
+    margin: auto;
 }
 .headernav{
     display: flex;
     flex: 1;
     justify-content: end;
+    align-items: center;
     list-style-type: none;
-
+    gap: 20px;
 }
-li{
-    margin: 5px;
+.borded{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
 }
 
 main{
     display: flex;
     margin: auto;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     justify-content: center;
     margin-top: 50px;
-    background-color: white;
-    border-radius: 10px;
+   
 
 }
+.checkout{
+    padding-inline-start: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+}
 .left{
+    background-color: white;
+    
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 30px;
+    border-bottom: 1px solid #E0E6EA;
 }
 .firstrow{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 .circle{
     display: flex;
@@ -53,20 +87,16 @@ main{
 input{
     background-color: rgb(241, 241, 243);
     border: none;
-    height: 25px;
-    padding-left: 5px;
+    width: 100%;
+    height: 30px;
     border-radius: 3px;
 }
-#E-mail {
-    width: 300px;
-}
-#credit-card{
-    width: 390px;
-}
+
 
 button{
-    margin-top: 50px;
-    width: 400px;
+    margin-top: 40px;
+    margin-inline: 30px;
+    width: 100%;
     height: 40px;
     background-color: rgba(34, 116, 34, 0.884);
     border: none;
@@ -80,12 +110,16 @@ button a{
 
 h3{
     display: flex;
+    margin: 0;
 }
 
+.formfooter{
+    margin: auto;
+    text-align: center;
+}
 
 .leftfooter{
     margin: auto;
-    text-align: center;
     color: whitesmoke;
     background-color: rgb(168, 170, 170);
     width: 120px;
@@ -102,54 +136,80 @@ h3{
 .right{
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     background-color: #0e83d1;
-    color: white;
-    padding-left: 30px;
+    color: #F5F8FA;
+    padding-inline: 30px;
+    padding-block-start: 30px;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
 }
 
 .price{
     display: flex;
     height: 45px;
 }
+
 .dollar{
     display: flex;
     align-items: flex-start;
     padding-top: 8px;
 }
+
 .ninety-nine{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
 }
+
 .year{
     display: flex;
     align-items: flex-end;
     padding-bottom: 8px;
 }
 
-.circle2{
+.lp2{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-     width: 20px;         /* Adjust the size of the circle */
-    height: 20px;        /* Must match the width to make it a perfect circle */
-    border-radius: 50%; /* Makes the element circular */
-    border: 1px solid;
-    color:  #0f7445;        /* Color of the number */
-    font-size: 24px;     /* Font size of the number */
-    font-weight: bold;   /* Optional: Make the number bold */
-    text-align: center;  /* Center the number horizontally */
     line-height: 50px;  
+}
+
+.rightlist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lp3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lined{
+    text-decoration: underline;
+    padding-block-end: 30px;
+    border-bottom: 1px solid white;
 }
 
 .lp4{
     line-height: 15px;
 }
-footer{
+
+.rightfooter{
+    display: flex;
+    gap: 10px;
+}
+
+.mainfooter{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 70px;
+    color: rgb(168, 170, 170);
+}
+a{
+    text-decoration: none;
 }
 
 

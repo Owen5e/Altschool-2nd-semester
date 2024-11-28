@@ -30,8 +30,9 @@ body{
   width: 400px;
   border-radius: 5px;
 }
-ul,ol{
+ul,li{
   padding: 0;
+  list-style-type: none;
 }
 a{
   font-family: ;
